@@ -1,0 +1,845 @@
+[15:21:47] [main/INFO] (FabricLoader) Loading for game Minecraft 1.16.4
+[15:21:50] [main/INFO] (Fabric|Loader) [FabricLoader] Loading 42 mods: minecraft@1.16.4, fabric-screen-handler-api-v1@1.1.0+872498413a, fabric-networking-blockentity-v0@0.2.5+b50ffc7b3a, fabric-renderer-api-v1@0.3.3+a4467d2a3a, fabric-keybindings-v0@0.2.0+3fa9f7c53a, fabric-command-api-v1@1.0.9+a4467d2a3a, fabricloader@0.10.6+build.214, fabric-tool-attribute-api-v1@1.2.4+2b4623793a, fabric-structure-api-v1@1.1.0+f8ac1db23a, fabric-renderer-indigo@0.4.3+a4467d2a3a, toolbreakalert@1.0-SNAPSHOT, fabric-containers-v0@0.1.8+045df74f3a, fabric-object-builder-api-v1@1.9.2+a89534ab3a, fabric-item-api-v1@1.2.0+f8ac1db23a, fabric-crash-report-info-v1@0.1.2+b7f9825d3a, fabric-events-interaction-v0@0.4.1+f8ac1db23a, fabric-game-rule-api-v1@1.0.3+a4467d2a3a, fabric-api-base@0.2.0+9f0fb4b83a, fabric-rendering-v0@1.1.1+f8ac1db23a, fabric-rendering-v1@1.3.1+f8ac1db23a, fabric-key-binding-api-v1@1.0.1+730711c63a, fabric-rendering-data-attachment-v1@0.1.4+f8ac1db23a, fabric-resource-loader-v0@0.3.1+facf3bbf3a, fabric-textures-v0@1.0.5+a4467d2a3a, fabric-content-registries-v0@0.1.9+059ea8663a, fabric-tag-extensions-v0@1.0.3+ac8e8c593a, fabric-rendering-fluids-v1@0.1.12+f8ac1db23a, fabric-biome-api-v1@3.0.0+8367596d3a, fabric-registry-sync-v0@0.6.1+a4467d2a3a, fabric-commands-v0@0.2.0+52d308363a, fabric-blockrenderlayer-v1@1.1.4+c6a8ea893a, fabric-lifecycle-events-v1@1.2.0+74cc3b203a, fabric-mining-levels-v0@0.1.2+b764ce993a, fabric-renderer-registries-v1@2.2.0+f8ac1db23a, fabric-loot-tables-v1@1.0.1+432ea1883a, fabric-events-lifecycle-v0@0.2.0+16acbe5b3a, fabric@0.25.1+build.416-1.16, fabric-models-v0@0.1.1+f8ac1db23a, fabric-particles-v1@0.2.2+fb0d9b0e3a, fabric-item-groups-v0@0.2.1+a4467d2a3a, fabric-object-builders-v0@0.7.1+a4467d2a3a, fabric-networking-v0@0.1.10+e00ecb5f3a
+[15:21:52] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Karan/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.8.2+build.24/e5a741445d0f425bf3cce946c6cf8c7fb8376b2/sponge-mixin-0.8.2+build.24.jar Service=Knot/Fabric Env=CLIENT
+[15:21:53] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-networking-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-networking-blockentity-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-screen-handler-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-lifecycle-events-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-indigo-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-data-attachment-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-structure-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-item-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-events-interaction-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-loot-tables-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-object-builder-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-registries-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-textures-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-registry-sync-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-models-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-blockrenderlayer-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-fluids-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-biome-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-resource-loader-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-game-rule-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-particles-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-object-builders-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-tag-extensions-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-tool-attribute-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-item-groups-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-content-registries-v0-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-command-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-crash-report-info-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-key-binding-api-v1-refmap.json using remapper chain
+[15:21:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[15:21:54] [main/WARN] (mixin) @Mixin target net/minecraft/server/world/ThreadedAnvilChunkStorage$EntityTracker is public in fabric-networking-v0.mixins.json:MixinEntityTracker and should be specified in value
+[15:21:56] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/block/BlockModelRenderer$AmbientOcclusionCalculator is public in fabric-renderer-indigo.mixins.json:MixinAmbientOcclusionCalculator and should be specified in value
+[15:21:56] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/chunk/ChunkBuilder$BuiltChunk$RebuildTask is public in fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask and should be specified in value
+[15:21:56] [main/WARN] (mixin) @Mixin target net/minecraft/village/TradeOffers$TypeAwareBuyForOneEmeraldFactory is public in fabric-object-builder-v1.mixins.json:TypeAwareTradeMixin and should be specified in value
+[15:21:57] [main/WARN] (mixin) @Mixin target net/minecraft/server/command/GameRuleCommand$1 is public in fabric-game-rule-api-v1.mixins.json:GameRuleCommandVisitorMixin and should be specified in value
+[15:21:57] [main/WARN] (mixin) @Mixin target net/minecraft/client/gui/screen/world/EditGameRulesScreen$RuleListWidget$1 is public in fabric-game-rule-api-v1.mixins.json:client.RuleListWidgetVisitorMixin and should be specified in value
+[15:21:57] [main/WARN] (mixin) @Mixin target net/minecraft/client/particle/ParticleManager$SimpleSpriteProvider is public in fabric-particles-v1.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor and should be specified in value
+[15:21:57] [main/WARN] (mixin) @Mixin target net/minecraft/tag/Tag$1 is public in fabric-tag-extensions-v0.mixins.json:MixinTagImpl and should be specified in value
+[15:21:57] [main/WARN] (mixin) @Mixin target net/minecraft/tag/RequiredTagList$TagWrapper is public in fabric-tag-extensions-v0.mixins.json:MixinTagImpl and should be specified in value
+[15:22:28] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:22:31] [main/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationException: Unauthorized
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-2.0.27.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:80) ~[authlib-2.0.27.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:34) ~[authlib-2.0.27.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.0.27.jar:?]
+	at net.minecraft.client.MinecraftClient.method_31382(MinecraftClient.java:563) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:398) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:22:31] [main/INFO] (Minecraft) Setting user: Player950
+[15:22:32] [main/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:22:33] [main/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[15:22:39] [main/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[15:22:39] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Screen Handler API (v1), Fabric Networking Block Entity (v0), Fabric Renderer API (v1), Fabric Key Bindings (v0), Fabric Command API (v1), Fabric Loader, Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Containers (v0), Fabric Object Builder API (v1), Fabric Item API (v1), Fabric Crash Report Info (v1), Fabric Events Interaction (v0), Fabric Game Rule API (v1), Fabric API Base, Fabric Rendering (v0), Fabric Rendering (v1), Fabric Key Binding API (v1), Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Textures (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Rendering Fluids (v1), Fabric Biome API (v1), Fabric Registry Sync (v0), Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Fabric Mining Levels (v0), Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric Events Lifecycle (v0), Fabric API, Fabric Models (v0), Fabric Item Groups (v0), Fabric Object Builders (v0), Fabric Networking (v0)
+[15:22:41] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[15:23:02] [main/INFO] (Minecraft) OpenAL initialized.
+[15:23:02] [main/INFO] (Minecraft) Sound engine started
+[15:23:03] [main/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15:23:04] [main/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[15:23:04] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:23:04] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:23:04] [main/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:23:04] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:23:04] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:23:06] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:23:06] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:23:06] [main/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:23:15] [main/INFO] (Minecraft) Connecting to play.minemalia.com, 25565
+[15:23:22] [main/INFO] (Minecraft) [CHAT] 
+[15:23:22] [main/INFO] (Minecraft) [CHAT] 
+[15:23:22] [main/INFO] (Minecraft) [CHAT] §aYou need to register first, please type
+[15:23:22] [main/INFO] (Minecraft) [CHAT] 
+[15:23:22] [main/INFO] (Minecraft) [CHAT]   §8» §f/register <password> <password> §c3264
+[15:23:22] [main/INFO] (Minecraft) [CHAT] 
+[15:23:22] [main/INFO] (Minecraft) [CHAT] 
+[15:23:24] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:23:27] [main/INFO] (Minecraft) [CHAT]       
+[15:23:27] [main/INFO] (Minecraft) [CHAT]         
+[15:23:27] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:27] [main/INFO] (Minecraft) Loaded 2 advancements
+[15:23:27] [main/INFO] (Minecraft) Loaded 3 advancements
+[15:23:30] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:32] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:39] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:40] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:42] [main/INFO] (Minecraft) [CHAT] §c§l»§f§l»§c§l» §cYou forgot to put the captcha at the end: 3264
+[15:23:44] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'HHDIN_U1'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:47] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'HHDIN_U1'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:47] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'HHDIN_U1'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:48] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'HHDIN_U1'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:49] [main/INFO] (Minecraft) [CHAT] §a§l»§f§l»§a§l» §aTrying to register your account
+[15:23:49] [main/INFO] (Minecraft) [CHAT] §a§l»§f§l»§a§l» §aYour account was successfully registered, have §afun!
+[15:23:57] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:57] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'HHDIN_U1'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:23:59] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:23:59] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:01] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:01] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:03] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'HHDIN_U1'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:24:07] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:24:12] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'HHDIN_U1'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:24:15] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:15] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:16] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:16] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:16] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:16] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:16] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'NoCollision'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:24:17] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:17] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:17] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:17] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:18] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:18] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:18] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:18] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:18] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:18] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:19] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:19] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:19] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:19] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:19] [main/INFO] (Minecraft) [CHAT] Server is full!
+[15:24:19] [main/INFO] (Minecraft) [CHAT] Kicked whilst connecting to survival: Server is full!
+[15:24:20] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:24:21] [main/INFO] (Minecraft) [CHAT]       
+[15:24:21] [main/INFO] (Minecraft) [CHAT]         
+[15:24:21] [main/INFO] (Minecraft) [CHAT] DailyRewards ➠ You can claim your daily reward!
+[15:24:21] [main/INFO] (Minecraft) [CHAT] WELCOME TO MINEMALIA SURVIVAL!
+[15:24:21] [main/INFO] (Minecraft) [CHAT] There are currently 100 players online
+[15:24:21] [main/INFO] (Minecraft) [CHAT] 
+[15:24:21] [main/INFO] (Minecraft) [CHAT]  » Start your adventure by typing /wild
+[15:24:21] [main/INFO] (Minecraft) [CHAT]  » Set a /home by using /sethome
+[15:24:21] [main/INFO] (Minecraft) [CHAT] 
+[15:24:21] [main/INFO] (Minecraft) [CHAT]  » /vote to receive rewards
+[15:24:21] [main/INFO] (Minecraft) [CHAT]  » Start a /quest to earn money
+[15:24:21] [main/INFO] (Minecraft) [CHAT] 
+[15:24:21] [main/INFO] (Minecraft) [CHAT]  » Use minecraft 1.16.1 for best experience
+[15:24:21] [main/INFO] (Minecraft) Loaded 0 advancements
+[15:24:21] [main/INFO] (Minecraft) [CHAT] WELCOME! Player950 joined MINEMALIA SURVIVAL for the first time! [#37,519]
+[15:24:21] [main/INFO] (Minecraft) Loaded 15 advancements
+[15:24:22] [main/INFO] (Minecraft) [CHAT] §7Bander_99 §2» my room
+[15:24:26] [main/INFO] (Minecraft) [CHAT] §7Anish3490 §2» ruk
+[15:24:31] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» junaidir wat enchant u wnt
+[15:24:32] [main/INFO] (Minecraft) [CHAT] §7Anish3490 §2» glass la na pls
+[15:24:33] [main/INFO] (Minecraft) [CHAT] Coinflipper ➠ lollolgamer554 just won a bet worth $19.0 k against GamersBoysYT.
+[15:24:34] [main/INFO] (Minecraft) [CHAT] §7preston098 §2» king trust me
+[15:24:35] [main/INFO] (Minecraft) [CHAT] §7kubaqq01 §2» is there any noob on survival?
+[15:24:37] [main/INFO] (Minecraft) [CHAT] »»» Do /wild to start building!
+[15:24:38] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:24:39] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» §f§8● §f§a§f64§a§fx §fDiamond§f §8● 8k on ah
+[15:24:41] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» i want mending and silk touch
+[15:24:42] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» not 500 5000 5k
+[15:24:42] [main/INFO] (Minecraft) [CHAT] §7Anish3490 §2» pls
+[15:24:43] [main/WARN] (Minecraft) Something's taking too long! 'root' took aprox 100.178299 ms
+[15:24:43] [main/WARN] (Minecraft) Something's taking too long! 'root.gameRenderer.level' took aprox 117.3852 ms
+[15:24:43] [main/WARN] (Minecraft) Something's taking too long! 'root.gameRenderer' took aprox 135.6193 ms
+[15:24:43] [main/WARN] (Minecraft) Something's taking too long! 'root' took aprox 163.8075 ms
+[15:24:43] [main/WARN] (Minecraft) Something's taking too long! 'root' took aprox 101.3278 ms
+[15:24:45] [main/INFO] (Minecraft) [CHAT] »»» Name changes are not supported by this server. You will have to start over again.
+[15:24:48] [main/INFO] (Minecraft) [CHAT] §7chickoXD §2» uhhh
+[15:24:49] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:24:49] [main/INFO] (Minecraft) [CHAT] §7jose85 §2» anyone selling kit elite?
+[15:24:50] [main/INFO] (Minecraft) [CHAT] §7itsmedammer123 §2» 3000
+[15:24:52] [main/INFO] (Minecraft) [CHAT] §7GOLDENERROR §2» noice
+[15:24:54] [main/INFO] (Minecraft) Loaded 18 advancements
+[15:24:57] [main/INFO] (Minecraft) [CHAT] Coinflipper ➠ lollolgamer554 just won a bet worth $19.0 k against itsmedammer123.
+[15:24:58] [main/INFO] (Minecraft) [CHAT] Prevent grief!  If you claim your land, you will be grief-proof.
+[15:24:58] [main/INFO] (Minecraft) [CHAT] Click for Land Claim Help: bit.ly/mcgpuser
+[15:25:02] [main/INFO] (Minecraft) [CHAT] §lWoodcutting increased to §r§a§l1§r§f.
+[15:25:02] [main/INFO] (Minecraft) [CHAT] §6[ mcMMO§e @§3Harvest Lumber §6Rank §31§6 Unlocked! ]
+[15:25:04] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» all enchants i want:
+[15:25:08] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» silk touch
+[15:25:10] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» mending
+[15:25:12] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» thats all
+[15:25:16] [main/INFO] (Minecraft) [CHAT] §7Razler §2» is someone building a town?
+[15:25:19] [main/INFO] (Minecraft) Loaded 19 advancements
+[15:25:20] [main/INFO] (Minecraft) [CHAT] ulyaniz tried to swim in lava
+[15:25:20] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» 5 k per book
+[15:25:24] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» do u know betting money is forbiden in many countries
+[15:25:25] [main/INFO] (Minecraft) [CHAT] §7Anish3490 §2» pane
+[15:25:28] [main/INFO] (Minecraft) Loaded 20 advancements
+[15:25:28] [main/INFO] (Minecraft) Loaded 39 advancements
+[15:25:29] [main/INFO] (Minecraft) [CHAT] §7jose85 §2» go to /pokemart
+[15:25:31] [main/INFO] (Minecraft) [CHAT] Coinflipper ➠ lollolgamer554 just won a bet worth $19.0 k against itsmedammer123.
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4526, y=95, z=3663}, START_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4526, y=95, z=3663}, ABORT_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4526, y=95, z=3662}, START_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4526, y=95, z=3662}, ABORT_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4527, y=96, z=3661}, START_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4527, y=96, z=3661}, ABORT_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4527, y=97, z=3660}, START_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4527, y=97, z=3660}, ABORT_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4531, y=98, z=3661}, START_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4531, y=98, z=3661}, ABORT_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4527, y=99, z=3659}, START_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4527, y=99, z=3659}, ABORT_DESTROY_BLOCK)
+[15:25:31] [main/ERROR] (Minecraft) Too many unacked block actions, dropping (Mutable{x=4527, y=99, z=3659}, STOP_DESTROY_BLOCK)
+[15:25:35] [main/INFO] (Minecraft) [CHAT] TEHAMI died
+[15:25:35] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» u have both?
+[15:25:36] [main/INFO] (Minecraft) [CHAT] §7LOLDUDE §2» my stuff despawned i thought to see how are they shining on groung grounditems cleared it
+[15:25:36] [main/INFO] (Minecraft) [CHAT] §7jose85 §2» go to /pw pokemart
+[15:25:42] [main/INFO] (Minecraft) [CHAT] §lExcavation increased to §r§a§l1§r§f.
+[15:25:42] [main/INFO] (Minecraft) [CHAT] §6[ mcMMO§e @§3Archaeology §6Rank §31§6 Unlocked! ]
+[15:25:47] [main/INFO] (Minecraft) [CHAT] §7KINGS §2» hi
+[15:25:52] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:25:57] [main/INFO] (Minecraft) [CHAT] §7isxanetazo_ §2» anyone interested in buying a massive farm with a big house near an island, tp to me
+[15:25:59] [main/INFO] (Minecraft) [CHAT] §7Razler §2» Hallow
+[15:26:00] [main/INFO] (Minecraft) [CHAT] §7indian_boss109lo §2» k]
+[15:26:00] [main/INFO] (Minecraft) [CHAT] §7kubaqq01 §2» who wants a stack of blaze rods???
+[15:26:05] [main/INFO] (Minecraft) [CHAT] §lExcavation increased to §r§a§l2§r§f.
+[15:26:05] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» §f§8● §f§fHeavy V§f §8●
+[15:26:06] [main/INFO] (Minecraft) [CHAT] §7LOLDUDE §2» me
+[15:26:09] [main/INFO] (Minecraft) [CHAT] Vote ➠ AdProGamer voted and received a VoteKey, 100 claimblocks and $250! Only 26 votes left until a VoteParty!
+[15:26:11] [main/INFO] (Minecraft) [CHAT] §7LOLDUDE §2» i wan tisx
+[15:26:13] [main/INFO] (Minecraft) [CHAT] §7kubaqq01 §2» im on pawn
+[15:26:13] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:26:17] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» §f§8● §f§fMega Heavy V§f §8●
+[15:26:17] [main/INFO] (Minecraft) [CHAT] §7AdProGamer §2» 1 more
+[15:26:17] [main/INFO] (Minecraft) [CHAT] §7kubaqq01 §2» spawn
+[15:26:19] [main/INFO] (Minecraft) [CHAT] §b§lBaron §7§b§lGuilthz §2» §b§8● §f§bx/pw magicdust is now RESTOCKEDx§b §8●
+[15:26:21] [main/INFO] (Minecraft) [CHAT] §7AdProGamer §2» done
+[15:26:23] [main/INFO] (Minecraft) [CHAT] §b§lBaron §7§o§lBucky §2» §b§8● §f§bBuying Sniper IV!!§b §8●
+[15:26:24] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» flex
+[15:26:28] [main/INFO] (Minecraft) [CHAT] §7AdProGamer §2» total 8 vote keys
+[15:26:30] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:26:31] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:26:36] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:26:41] [main/INFO] (Minecraft) [CHAT] §7AdProGamer §2» i will sell here vote keys daily
+[15:26:42] [main/INFO] (Minecraft) [CHAT] §7LOLDUDE §2» how much'
+[15:26:45] [main/INFO] (Minecraft) [CHAT] »»» Receive free rewards by joining each day! Receive your reward with /daily
+[15:26:55] [main/INFO] (Minecraft) [CHAT] §2§lLord §7§b§LCryo§c§LTron §2» come
+[15:26:58] [main/INFO] (Minecraft) [CHAT] §2§lLord §7§e§LLuckiest_Man §2» reeekid i wont use ur gear cuz i might lose it
+[15:26:58] [main/INFO] (Minecraft) [CHAT] iamshk died
+[15:26:58] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» give 5 k
+[15:27:00] [main/INFO] (Minecraft) [CHAT] §7sheep7067hello §2» are you chief of frozenland
+[15:27:00] [main/INFO] (Minecraft) [CHAT] §2§lLord §7§e§LLuckiest_Man §2» so yeah
+[15:27:05] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» i have silk and mend
+[15:27:07] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:27:09] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» ya
+[15:27:11] [main/INFO] (Minecraft) [CHAT] §2§lLord §7§e§LLuckiest_Man §2» ill take it as a gl gift
+[15:27:11] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» 5k perbook
+[15:27:14] [main/INFO] (Minecraft) [CHAT] §7LOLDUDE §2» what 480
+[15:27:14] [main/INFO] (Minecraft) [CHAT] §7junaidirf3 §2» umm
+[15:27:21] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» omar
+[15:27:29] [main/INFO] (Minecraft) [CHAT] §7OMAR0788 §2» ?
+[15:27:32] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» how much u willing to pay
+[15:27:33] [main/INFO] (Minecraft) [CHAT] §b§lBaron §7§1§lM§2§lr§3§lF§a§lo§d§lr§4§lt§6§ly§7§l4§0§l§0§l §2» how to remove lure???
+[15:27:38] [main/INFO] (Minecraft) [CHAT] §7Corticorn §2» everyone et free stuff do /voteparty
+[15:27:38] [main/INFO] (Minecraft) [CHAT] §7sheep7067hello §2» hey tell
+[15:27:40] [main/INFO] (Minecraft) Loaded 45 advancements
+[15:27:41] [main/INFO] (Minecraft) [CHAT] §7OMAR0788 §2» how much u want
+[15:27:44] [main/INFO] (Minecraft) [CHAT] §7LOLDUDE §2» show me a tour
+[15:27:46] [main/INFO] (Minecraft) [CHAT] §7sheep7067hello §2» are you chief
+[15:27:48] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» who wants enchantments
+[15:27:49] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» least bid 70k
+[15:27:49] [main/INFO] (Minecraft) [CHAT] That belongs to gootjh.
+[15:27:50] [main/INFO] (Minecraft) [CHAT] That belongs to gootjh.
+[15:27:52] [main/INFO] (Minecraft) [CHAT] §7YoAadi11 §2» i
+[15:27:54] [main/INFO] (Minecraft) [CHAT] You don't have shudokupurge's permission to build here.
+[15:27:55] [main/INFO] (Minecraft) [CHAT] §7YoAadi11 §2» I
+[15:27:55] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:27:55] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» who wants enchantments 5k perbook
+[15:27:57] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:27:57] [main/INFO] (Minecraft) Loaded 68 advancements
+[15:27:57] [main/INFO] (Minecraft) Loaded 68 advancements
+[15:27:59] [main/WARN] (Minecraft) Received passengers for unknown entity
+[15:28:00] [main/INFO] (Minecraft) [CHAT] §7YoAadi11 §2» i dont
+[15:28:01] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:28:02] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» wat book adi
+[15:28:03] [main/INFO] (Minecraft) Loaded 68 advancements
+[15:28:04] [main/INFO] (Minecraft) [CHAT] §7Nezuko §2» alright a few min 50k EXP on /ah for 15k
+[15:28:05] [main/INFO] (Minecraft) [CHAT] §7LOLDUDE §2» if you put interior i will give diamonds too
+[15:28:05] [main/FATAL] (Minecraft) Error executing task on Client
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-594'.
+	at net.minecraft.scoreboard.Scoreboard.removePlayerFromTeam(Scoreboard.java:242) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2068) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:134) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:67) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:20) ~[minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:136) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:22) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:109) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:97) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:979) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:624) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:187) [minecraft-1.16.4-mapped-net.fabricmc.yarn-1.16.4+build.6-v2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.10.6+build.214@net.fabricmc.yarn.1_16_4.1.16.4+build.6-v2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:28:09] [main/WARN] (Minecraft) Received passengers for unknown entity
+[15:28:09] [main/INFO] (Minecraft) [CHAT] §7OMAR0788 §2» hm i dont have enough
+[15:28:09] [main/INFO] (Minecraft) [CHAT] §7YoAadi11 §2» give me for 1000
+[15:28:14] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» k fine
+[15:28:16] [main/INFO] (Minecraft) [CHAT] §3§lElite §7§5§lBe§6§lHappy §2» ok
+[15:28:19] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» wat book
+[15:28:20] [main/INFO] (Minecraft) [CHAT] §7YoAadi11 §2» and diamonds plus
+[15:28:24] [main/INFO] (Minecraft) [CHAT] §7anvitgamez §2» k
+[15:28:25] [main/INFO] (Minecraft) Stopping!

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "toolbreakalert",
+  "version": "1.0-SNAPSHOT",
+  "name": "Toolbreakalert",
+  "description": "Alerts you before your tools break",
+  "authors": [
+    "KaranKapur123"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/toolbreakalert/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.karankapur123.toolbreakalert.Toolbreakalert"
+    ]
+  },
+  "mixins": [
+    "toolbreakalert.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
